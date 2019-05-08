@@ -7,6 +7,6 @@ user jovyan
 RUN ln -s /opt/conda/envs/ipykernel_py2/bin/orprov-cli /opt/conda/bin/
 
 # Copy Notebook file
-COPY *.ipynb .
+COPY *.ipynb ./
 
 MAINTAINER Nikolaus Parulian <nikolaus.nova@gmail.com>
